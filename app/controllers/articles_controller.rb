@@ -10,8 +10,8 @@ class ArticlesController < ApplicationController
   end
 
   def create
-
     @article = Article.new(articles_params)
+    @article.user_id = 1
 
     if @article.save
       flash[:success] = "Article is successfully created"
