@@ -61,10 +61,10 @@ footer ul li{
 .ac{
   align: 'center'
 }
-.signupbutton{
+.button{
   border-color: #222222;
 }
-.signupbutton:hover{
+.button:hover{
   background-color: #222222;
 }
 .article-actions{
@@ -82,4 +82,11 @@ footer ul li{
   border-top: 1px solid #4ae072;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.clr{
+  color: #2E2F30;
+}
+.themebtn{
+  background-color: #4ae072;
+  color: #2E2F30;
 }
